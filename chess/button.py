@@ -13,12 +13,12 @@ def mouseClicked(first):
 
 class button:
     def __init__(self, x, y, width, height, color, string, fontSize, textC):
+        font = pg.font.Font('freesansbold.ttf', fontSize)
         self.x = x
         self.y = y
         self.height = height
         self.width = width
         self.color = color
-        font = pg.font.Font('freesansbold.ttf', fontSize)
         text = font.render(string, True, textC, self.color)
         textRect = text.get_rect()
         textRect.center = (x + width // 2, y + height // 2)

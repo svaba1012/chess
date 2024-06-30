@@ -1,3 +1,5 @@
+# Figure values
+
 BLACK_PAWN = -1
 WHITE_PAWN = 1
 BLACK_KNIGHT = -2
